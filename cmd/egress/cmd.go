@@ -11,7 +11,7 @@ import (
 	"github.com/openshift/osd-network-verifier/pkg/helpers"
 	"github.com/openshift/osd-network-verifier/pkg/proxy"
 	"github.com/openshift/osd-network-verifier/pkg/verifier"
-	gcpverifier "github.com/openshift/osd-network-verifier/pkg/verifier/gcp"
+	"github.com/openshift/osd-network-verifier/pkg/verifier/gcpverifier"
 	"golang.org/x/oauth2/google"
 
 	"github.com/spf13/cobra"

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	awsverifier "github.com/openshift/osd-network-verifier/pkg/verifier/aws"
+	"github.com/openshift/osd-network-verifier/pkg/verifier/awsverifier"
 )
 
 // GetAwsVerifier returns a verifier client from a profile or ENV vars if set

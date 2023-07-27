@@ -10,7 +10,7 @@ import (
 	"github.com/openshift/osd-network-verifier/pkg/helpers"
 	"github.com/openshift/osd-network-verifier/pkg/proxy"
 	"github.com/openshift/osd-network-verifier/pkg/verifier"
-	awsverifier "github.com/openshift/osd-network-verifier/pkg/verifier/aws"
+	"github.com/openshift/osd-network-verifier/pkg/verifier/awsverifier"
 )
 
 func extendValidateEgress() {
